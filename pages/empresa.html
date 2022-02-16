@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +46,7 @@
         </div>
 
         <article>
-            <img class="contenedorEmpresa__imagen" src="../img/imagen4.jpg" alt="Paisaje de Fondo">
+            <img class="contenedorEmpresa__imagen" src="../img/imagen4.jpg" alt="Paisaje de Fondo" data-aos="zoom-out">
         </article>
 
         <section class="contenedorEmpresa__text">
@@ -100,5 +102,9 @@
             </nav>
         </section>
     </footer>
+    <script>
+        AOS.init();
+        once: true;
+    </script>
 </body>
 </html>

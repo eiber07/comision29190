@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,8 +90,8 @@
                 </select>
             </fieldset>
 
-            <input class="contacto__btn" type="submit" value="Enviar">
-            <input class="contacto__btn" type="reset" value="Borrar">
+            <input class="contacto__btn" type="submit" value="Enviar" data-aos="fade-down">
+            <input class="contacto__btn" type="reset" value="Borrar" data-aos="fade-down">
         </form>
     </main>
     <footer class="footer">
@@ -136,5 +138,9 @@
             </nav>
         </section>
     </footer>
+    <script>
+        AOS.init();
+        once: true;
+    </script>
 </body>
 </html>

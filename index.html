@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,7 +104,9 @@
         <div class="informacion__content">
             <article class="informacion__content--iconos">
                 <div class="informacion__logo">
-                    <img class="informacion__logo--img" src="img/icono1.svg" alt="Icono Seguridad">
+                    <img class="informacion__logo--img" src="img/icono1.svg" alt="Icono Seguridad" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" >
                 </div>
                 <div class="informacion__logo--text">
                     <h3>Seguridad</h3>
@@ -112,7 +116,9 @@
 
             <article class="informacion__content--iconos">
                 <div class="informacion__logo">
-                    <img class="informacion__logo--img" src="img/icono2.svg" alt="Icono Precio">
+                    <img class="informacion__logo--img" src="img/icono2.svg" alt="Icono Precio" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                 </div>
                 <div class="informacion__logo--text">
                     <h3>El Mejor Precio</h3>
@@ -122,7 +128,9 @@
 
             <article class="informacion__content--iconos">
                 <div class="informacion__logo">
-                    <img class="informacion__logo--img" src="img/icono3.svg" alt="Icono Tiempo">
+                    <img class="informacion__logo--img" src="img/icono3.svg" alt="Icono Tiempo" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                 </div>
                 <div class="informacion__logo--text">
                     <h3>A Tiempo</h3>
@@ -176,6 +184,9 @@
             </nav>
         </section>
     </footer>
-
+    <script>
+        AOS.init();
+        once: true;
+    </script>
 </body>
 </html>
