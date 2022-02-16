@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Casa Propia</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="../img/pngegg.png" type="image/png">
+        <link rel="stylesheet" href="../estilos.css">
+    </head>
+<body class="bodyAlt">
+    <header class="encabezadoAlt">
+        <div class="encabezadoPrincipal">
+            <div class="logo">
+                <a href="../index.html">
+                    <img class="imagen" src="../img/pngegg.png" alt="Logo de Casa Propia">
+                </a>
+            </div>
+
+            <nav class="encabezado__nav">
+                <ul class="encabezado__lista">
+                    <li class="encabezado__item">
+                        <a class="encabezado__item--linkAlt" href="../index.html">Home</a>
+                    </li>
+                    <li class="encabezado__item">
+                        <a class="encabezado__item--linkAlt" href="empresa.html">Empresa</a>
+                    </li>
+                    <li class="encabezado__item">
+                        <a class="encabezado__item--linkAlt" href="testimonios.html">Testimonios</a>
+                    </li>
+                    <li class="encabezado__item">
+                        <a class="encabezado__item--linkAlt" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="tituloContacto">
+            <h1>Contacto</h1>
+        </div>
+
+        <div>
+            <img class="imagenContacto" src="../img/fondocontacto.jpg" alt="Imagen de Fondo">
+        </div>
+        <form class="contacto" action="#" method="get">
+            <fieldset>
+                <legend>Información Personal</legend>
+
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="user_nombre" id="nombre" placeholder="Introduzca su Nombre" required>
+                </div>
+
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="user_apellido" id="apellido" placeholder="Introduzca su Apellido" required>
+                </div>
+
+                <div>
+                    <label for="documento">ID:</label>
+                    <input type="number" name="user_documento" id="documento" placeholder="Introduzca Número de Documento" required>
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" name="user_telefono" id="telefono" placeholder="Introduzca su Número de Teléfono" required>
+                </div>
+
+                <div>
+                    <label for="email">Correo:</label>
+                    <input type="email" name="user_email" id="email" placeholder="Introduzca su Correo" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Como desea ser contactado</legend>
+                <label for="contacto">Tipo de Contacto:</label>
+                <select name="user_contacto" id="contacto">
+                    <option value="whatsapp">Whatsapp</option>
+                    <option value="Email">Correo</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="facebook">facebook</option>
+                    <option value="Llamada">Llamada</option>
+                </select>
+            </fieldset>
+
+            <input class="contacto__btn" type="submit" value="Enviar">
+            <input class="contacto__btn" type="reset" value="Borrar">
+        </form>
+    </main>
+    <footer class="footer">
+        <section>
+            <div class="footer__logo">
+                <img class="logo" src="../img/pngegg.png" alt="Logo">
+            </div>
+
+            <div class="footer__seccion">
+                <article class="footer__item">
+                    <img class="item" src="../img/ubicación.png" alt="Logo Ubicación">
+                    <p>Juan Camacho 00</p>
+                </article>
+
+                <article class="footer__item">
+                    <img class="item" src="../img/telefono.png" alt="Logo telefono">
+                    <p>+5400000000</p>
+                </article>
+            </div>
+
+            <nav class="footer__nv">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#">
+                            <img class="item" src="../img/facebook.png" alt="Logo facebook">
+                        </a>
+                    </li>    
+                    <li class="footer__item">
+                        <a href="#">
+                            <img class="item" src="../img/instagram.png" alt="Logo instagram">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#">
+                            <img class="item" src="../img/whatsapp.png" alt="Logo whatsapp">
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#">
+                            <img class="item" src="../img/mail.png" alt="Logo mail">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
